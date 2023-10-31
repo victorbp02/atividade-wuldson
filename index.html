@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fomulário</title>
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./trabalho.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container {
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    max-width: 400px;
+    overflow: hidden;
+}
+
+.header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form {
+    padding: 20px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control input {
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+
+.form button {
+    background-color: white;
+    border: 2px solid white;
+    color: #f0f0f0;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>
+                <p>Login de Acesso</p>
+            </h1>
+            <h3><u>
+                    <p>Fomuláro de Inscrição</p>
+                </u>
+            </h3>
+        </div>
+        <form id="form" class="form" action="" method="">
+            <div class="form-control">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required placeholder="Digite seu Nome:"><br>
+            </div>
+
+            <div class="form-control">
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" name="sobrenome" required placeholder="Digite Seu Sobrenome:"><br>
+            </div>
+            <div class="form-control">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Digite Email:"><br>
+            </div>
+
+            <div class="form-control">
+                <label for="telefone">Telefone:</label>
+                <input type="telefone" id="telefone" name="telefone" required placeholder="Digite seu Telefone"><br>
+            </div>
+
+            <div class="form-control">
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade" placeholder="Digite a Cidade"><br>
+            </div>
+
+            <button><a href="wudson2.html">Próximo</a></button>
+        </form>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
